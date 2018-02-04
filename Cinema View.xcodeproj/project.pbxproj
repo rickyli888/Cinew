@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		88F129512026837100CCEF0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F129502026837100CCEF0A /* AppDelegate.swift */; };
-		88F129532026837100CCEF0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F129522026837100CCEF0A /* ViewController.swift */; };
 		88F129562026837100CCEF0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F129542026837100CCEF0A /* Main.storyboard */; };
 		88F129582026837100CCEF0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F129572026837100CCEF0A /* Assets.xcassets */; };
 		88F1295B2026837100CCEF0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F129592026837100CCEF0A /* LaunchScreen.storyboard */; };
 		88F129662026837100CCEF0A /* Cinema_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F129652026837100CCEF0A /* Cinema_ViewTests.swift */; };
 		88F129712026837100CCEF0A /* Cinema_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F129702026837100CCEF0A /* Cinema_ViewUITests.swift */; };
+		88F1297F2026D6C900CCEF0A /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F1297E2026D6C900CCEF0A /* NowPlayingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		88F1294D2026837100CCEF0A /* Cinema View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cinema View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F129502026837100CCEF0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88F129522026837100CCEF0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		88F129552026837100CCEF0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88F129572026837100CCEF0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88F1295A2026837100CCEF0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		88F1296C2026837100CCEF0A /* Cinema ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cinema ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F129702026837100CCEF0A /* Cinema_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cinema_ViewUITests.swift; sourceTree = "<group>"; };
 		88F129722026837100CCEF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F1297E2026D6C900CCEF0A /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				88F129502026837100CCEF0A /* AppDelegate.swift */,
-				88F129522026837100CCEF0A /* ViewController.swift */,
+				88F1297E2026D6C900CCEF0A /* NowPlayingViewController.swift */,
 				88F129542026837100CCEF0A /* Main.storyboard */,
 				88F129572026837100CCEF0A /* Assets.xcassets */,
 				88F129592026837100CCEF0A /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88F129532026837100CCEF0A /* ViewController.swift in Sources */,
+				88F1297F2026D6C900CCEF0A /* NowPlayingViewController.swift in Sources */,
 				88F129512026837100CCEF0A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
